@@ -1,2 +1,25 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+ //upgift 1
+/*int i = 1;  //startvärde
+while (i <= 20) //så länge i är mindre än eller lika med 20
+{
+    Console.WriteLine("Count is " + i   ); //skriver ut talen 1-20
+    i++;
+}
+
+Console.WriteLine("färdig"); //skriver ut färdig när loopen är klar
+*/
+
+
+
+ 
+//upgift 2
+Console.WriteLine("skrev ut en hel tal:"); //fråga användaren om ett heltal
+
+int i = int.Parse(Console.ReadLine()); //läser in talet och konverterar det till en int
+
+while (i <= 101)
+{
+    Console.WriteLine("det är: " + i); //skriver ut talen från användarens tal till 101
+    i++;
+}  
+Console.WriteLine("klart");
